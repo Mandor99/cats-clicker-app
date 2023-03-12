@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header__title {
+    text-transform: capitalize;
+    flex: 1;
+    margin: 0;
+}
+
+.header__dialog {
+    display: none !important;
+}
+
+.form__dialog--close {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .header__slider {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__dialog {
+        display: block !important;
+    }
+
+    .form__dialog--close {
+        display: block;
+    }
+
+    .header__title {
+        font-size: 1rem;
+    }
+}

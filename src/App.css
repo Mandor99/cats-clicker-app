@@ -1,0 +1,48 @@
+.container {
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+.b-1 {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.flex-1 {
+    flex: 1 !important;
+}
+
+.grow {
+    flex: 1;
+}
+
+.active {
+    background-color: #1565C0;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+.errorMsg {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
